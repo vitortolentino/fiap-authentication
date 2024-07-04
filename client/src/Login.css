@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(58, 58, 58);
+}
+
+#login {
+  margin: auto;
+  width: 250px;
+  height: 300px;
+  border: 1px solid #bbbbbb;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+  padding: 10px;
+}
+
+button {
+  border: 1px solid #bbbbbb;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+}
