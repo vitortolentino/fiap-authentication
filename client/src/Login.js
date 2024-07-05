@@ -27,7 +27,7 @@ function Login() {
       const response = await fetch(
         `http://localhost:4000/getAuthToken?code=${code}`
       );
-      console.log({ response });
+
       const data = await response.json();
       console.log({ data });
       if (data.access_token) {
